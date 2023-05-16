@@ -13,7 +13,7 @@ html{
     overflow-x:hidden ;
 }
 body{
-    background: rgb(0, 0, 0);
+    background:black;
     overflow-x: hidden;
 }
 
@@ -146,6 +146,87 @@ h1{
     color: greenyellow;
 }
 section{
-    color: aliceblue;
+    padding: 0 19%;
 }
+
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+    position:relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+    padding-left:43px;
+    
+ }
+ .image{
+    height: 40rem;
+    width: 40rem;
+    margin-left: 15rem;
+    
+ }
+ .hero-text h1{
+    margin-left: 2rem;
+    margin-bottom: 20px;
+    font-size:25px;
+
+ }
+ .hero-text{
+ padding-bottom: 30rem;
+ padding-left: 4rem;
+ padding-right: 0;
+ margin-top: 10rem;
+
+ }
+ .hero-text p{
+    width: 70rem;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 1.5px;
+     font-size: 15px;
+     font-weight: 350;
+     }
+     .hero-img{
+        margin-left: 2rem;
+        margin-bottom: 20rem;
+       margin-top:5rem;
+       justify-content: center;
+       margin-right: 8rem;
+
+     }
+ 
 /* BUTTON */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.btn{
+    margin: 15px 10px;
+font-family: Roboto, sans-serif;
+font-weight: 100;
+font-size: 16px;
+color: #141313;
+background-color: #d9e0da;
+padding: 10px 15px;
+border: solid #1b1d1f 2px;
+box-shadow: rgba(131, 13, 204, 0.93) 1px 3px 0px 1px;
+border-radius: 12px;
+transition : 286ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+.btn:hover{
+
+transition : 286ms;
+padding: 10px 24px;
+transform : translateY(-7px);
+background-color: #d7ecd4;
+color: #0e1012;
+border: solid 2px #1a1b1c;
+}
+/*  */
