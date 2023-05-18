@@ -272,6 +272,7 @@ button{
    
 }
 .btn{
+position: static;
 margin: 30px 55px;
 font-family: Roboto, sans-serif;
 font-weight: 100;
@@ -283,7 +284,6 @@ border: solid #1b1d1f 2px;
 box-shadow: rgba(131, 13, 204, 0.93) 1px 3px 0px 1px;
 border-radius: 12px;
 transition : 286ms;
-transform : translateY(0);
 align-items: center;
 cursor: pointer;
 
