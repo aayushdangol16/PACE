@@ -8,4 +8,18 @@ nav.addEventListener('click',()=>{
 });
 
 
-
+//fixed navbar//
+window.onscroll = function() {
+    scroll();
+  };
+  
+  var header = document.querySelector("header");
+  var sticky = header.offsetTop;
+  
+  function scroll() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky");
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
