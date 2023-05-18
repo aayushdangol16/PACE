@@ -23,3 +23,14 @@ window.onscroll = function() {
       navbar.classList.remove("sticky");
     }
   }
+
+  //screen size
+  const screenWidth = window.innerWidth;
+console.log(`ScreenWidth: ${screenWidth}`);
+const screenRes=document.querySelector('.div2');
+if(screenWidth>1400){
+screenRes.classList.add("extra");
+}
+else if(screenWidth<1400){
+  screenRes.classList.remove("extra");
+}

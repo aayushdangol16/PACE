@@ -169,15 +169,15 @@ body{
     background-color:black;
     width:75rem;
     height:50rem;
-    float:left
+    float:left;
   }
   
   .div2{
     background-color:black;
     width: 50rem;
     height:50rem;
-    float: right;
-    margin-left: 10rem;
+    float:left;
+    
     
     
    
@@ -257,12 +257,11 @@ color: rgb(152, 228, 38);
   
   }
   
-    
-  @media screen and (min-width: 1435px) {
-    .div2 {
-     margin-left: 35rem;
-    }
+  .extra{
+    margin-left: 30rem;
   }
+    
+  
  
 /* BUTTON */
 
@@ -272,22 +271,23 @@ button{
    
 }
 .btn{
-margin: 30px 55px;
-font-family: Roboto, sans-serif;
-font-weight: 100;
-font-size: 16px;
-color: #141313;
-background-color: #d9e0da;
-padding: 10px 15px;
-border: solid #1b1d1f 2px;
-box-shadow: rgba(131, 13, 204, 0.93) 1px 3px 0px 1px;
-border-radius: 12px;
-transition : 286ms;
-transform : translateY(0);
-align-items: center;
-cursor: pointer;
-
-}
+    position: static;
+    margin: 30px 55px;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #141313;
+    background-color: #d9e0da;
+    padding: 10px 15px;
+    border: solid #1b1d1f 2px;
+    box-shadow: rgba(131, 13, 204, 0.93) 1px 3px 0px 1px;
+    border-radius: 12px;
+    transition : 286ms;
+    /* transform : translateY(0); */
+    align-items: center;
+    cursor: pointer;
+    
+    }
 
 .btn:hover{
 
