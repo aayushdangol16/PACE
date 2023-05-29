@@ -360,6 +360,7 @@ border: solid 2px #1a1b1c;
     border-radius: 1px;
     padding: 0px;
     position: relative; /* Added for positioning the h3 element */
+    overflow: auto;
   }
   .left-box:hover,
   .middle-box:hover,
@@ -407,7 +408,7 @@ border: solid 2px #1a1b1c;
   .right-box p {
     display: none;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
